@@ -2,3 +2,55 @@
     COMP 333: Software Engineering
     Grant Westfahl (gwestfahl@wesleyan.edu)
 */
+
+body,
+html {
+  height: 100%;
+}
+
+ul {
+  width: 150%;
+  display: table;
+  table-layout: fixed;
+}
+
+ul li {
+  display: table-cell;
+  width: auto;
+  text-align: center;
+}
+
+.toppage-content {
+  background-image: url("images/black-cat-eyes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+}
+
+.brand-logo-class {
+  background-color: #62f3e7;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.363);
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.flex-container > div {
+  background-color: grey;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
